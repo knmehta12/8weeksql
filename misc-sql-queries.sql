@@ -1,6 +1,6 @@
-1. Find the popularity percentage for each user on Facebook. The popularity percentage is defined as the total number of friends the user has divided by the total number of users on the platform, then converted into a percentage by multiplying by 100.
-Output each user along with their popularity percentage. Order records in ascending order by user id.
-The 'user1' and 'user2' column are pairs of friends.[StrataScratch Facebook]
+--1. Find the popularity percentage for each user on Facebook. The popularity percentage is defined as the total number of friends the user has divided by the total number of users on the platform, then converted into a percentage by multiplying by 100.
+--Output each user along with their popularity percentage. Order records in ascending order by user id.
+--The 'user1' and 'user2' column are pairs of friends.[StrataScratch Facebook]
 
 
 
@@ -19,7 +19,7 @@ ORDER BY user1;
 
 
 
-2. Find the date with the highest total energy consumption from the Facebook data centers. Output the date along with the total energy consumption across all data centers.[StrataScratch Facebook]
+--2. Find the date with the highest total energy consumption from the Facebook data centers. Output the date along with the total energy consumption across all data centers.[StrataScratch Facebook]
 
 
 
@@ -38,8 +38,8 @@ GROUP BY new.date
         ORDER BY SUM(consumption) DESC LIMIT 1);
         
   
- 3. Find the total number of downloads for paying and non-paying users by date. Include only records where non-paying customers have more downloads than paying customers. 
-The output should be sorted by earliest date first and contain 3 columns date, non-paying downloads, paying downloads.[ StrataScratch Microsoft]
+ --3. Find the total number of downloads for paying and non-paying users by date. Include only records where non-paying customers have more downloads than paying customers. 
+--The output should be sorted by earliest date first and contain 3 columns date, non-paying downloads, paying downloads.[ StrataScratch Microsoft]
   
 --non paying > paying
 --make 2 ctes
